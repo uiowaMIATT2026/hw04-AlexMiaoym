@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <executable>
-    <category>MIATT.HW04.hawkidhereXXXX</category>
-    <title>make a good title here XXXX</title>
+    <category>MIATT.HW04.yuamiao</category>
+    <title>Simple Threshold</title>
     <description>
-        Does something astonishing
+        This program is used to threshold an image.
     </description>
-    <version>97.0</version>
+    <version>1.0</version>
     <documentation-url></documentation-url>
     <license></license>
-    <contributor>Hans J. Johnson</contributor>
+    <contributor>Yuanmin Miao</contributor>
 
     <parameters>
-        <label>
-            Threshold Parameters
-        </label>
+        <label>Threshold Parameters</label>
         <description>
-            Parameters for..
+        Parameters for thresholding
         </description>
 
-        <double>
-            <name>ts</name>
-            <longflag>ts</longflag>
-            <description>unknown</description>
-            <label>A really good label</label>
-            <default>0.0625</default>
-            <constraints>
-                <minimum>.001</minimum>
-                <maximum>1</maximum>
-                <step>.001</step>
-            </constraints>
-        </double>
+        <integer>
+            <name>lowThreshold</name>
+            <longflag>lowThreshold</longflag>
+            <description>Lower threshold for thresholding </description>
+            <label>Low Threshold</label>
+            <default>50</default>
+        </integer>
 
         <integer>
-            <name>numberOfIterations</name>
-            <longflag>iterations</longflag>
-            <description>Number of iterations</description>
-            <label>Iterations</label>
-            <default>1</default>
-            <constraints>
-                <minimum>1</minimum>
-                <maximum>30</maximum>
-                <step>1</step>
-            </constraints>
+            <name>highThreshold</name>
+            <longflag>highThreshold</longflag>
+            <description>Upper threshold for thresholding </description>
+            <label>High Threshold</label>
+            <default>100</default>
+        </integer>
+
+        <integer>
+            <name>outsideValue</name>
+            <longflag>outsideValue</longflag>
+            <description>Value for outside pixels </description>
+            <label>Outside Value</label>
+            <default>150</default>
+        </integer>
+
+        <integer>
+            <name>insideValue</name>
+            <longflag>insideValue</longflag>
+            <description>Value for inside pixels </description>
+            <label>Inside Value</label>
+            <default>200</default>
         </integer>
 
     </parameters>
@@ -65,5 +69,5 @@
         </image>
     </parameters>
 
-    <-- Other parameters here -->
+    <!-- Other parameters here -->
 </executable>
