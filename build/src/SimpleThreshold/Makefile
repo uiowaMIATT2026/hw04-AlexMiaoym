@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/rule:
-	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/rule
-.PHONY : src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/rule
+src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/rule:
+	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/rule
+.PHONY : src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/rule
 
 # Convenience name for target.
-SimpleThreshold_: src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/rule
-.PHONY : SimpleThreshold_
+SimpleThreshold_yuamiao: src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/rule
+.PHONY : SimpleThreshold_yuamiao
 
 # fast build rule for target.
-SimpleThreshold_/fast:
-	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/build
-.PHONY : SimpleThreshold_/fast
+SimpleThreshold_yuamiao/fast:
+	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build
+.PHONY : SimpleThreshold_yuamiao/fast
 
 SimpleThreshold.o: SimpleThreshold.cxx.o
 .PHONY : SimpleThreshold.o
 
 # target to build an object file
 SimpleThreshold.cxx.o:
-	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/SimpleThreshold.cxx.o
+	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/SimpleThreshold.cxx.o
 .PHONY : SimpleThreshold.cxx.o
 
 SimpleThreshold.i: SimpleThreshold.cxx.i
@@ -143,7 +143,7 @@ SimpleThreshold.i: SimpleThreshold.cxx.i
 
 # target to preprocess a source file
 SimpleThreshold.cxx.i:
-	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/SimpleThreshold.cxx.i
+	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/SimpleThreshold.cxx.i
 .PHONY : SimpleThreshold.cxx.i
 
 SimpleThreshold.s: SimpleThreshold.cxx.s
@@ -151,7 +151,7 @@ SimpleThreshold.s: SimpleThreshold.cxx.s
 
 # target to generate assembly for a file
 SimpleThreshold.cxx.s:
-	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/SimpleThreshold.cxx.s
+	cd /Users/alex/mym/ece5490/hw04-AlexMiaoym/build && $(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/SimpleThreshold.cxx.s
 .PHONY : SimpleThreshold.cxx.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SimpleThreshold_"
+	@echo "... SimpleThreshold_yuamiao"
 	@echo "... SimpleThreshold.o"
 	@echo "... SimpleThreshold.i"
 	@echo "... SimpleThreshold.s"

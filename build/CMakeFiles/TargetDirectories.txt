@@ -2,6 +2,9 @@
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles/rebuild_cache.dir
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/CMakeFiles/edit_cache.dir
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/CMakeFiles/rebuild_cache.dir
-/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/SimpleThreshold/CMakeFiles/edit_cache.dir
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/SimpleThreshold/CMakeFiles/rebuild_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/CMakeFiles/edit_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/CMakeFiles/rebuild_cache.dir

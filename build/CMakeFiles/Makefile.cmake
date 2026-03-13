@@ -176,6 +176,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
   "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/CMakeLists.txt"
+  "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/GaussianLPF/CMakeLists.txt"
   "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/SimpleThreshold/CMakeLists.txt"
   "/usr/local/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -218,9 +219,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/SimpleThreshold/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/GaussianLPF/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/DependInfo.cmake"
+  "src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/DependInfo.cmake"
+  "src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/DependInfo.cmake"
   )

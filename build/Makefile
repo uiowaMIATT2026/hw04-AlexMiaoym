@@ -117,17 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SimpleThreshold_
+# Target rules for targets named SimpleThreshold_yuamiao
 
 # Build rule for target.
-SimpleThreshold_: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SimpleThreshold_
-.PHONY : SimpleThreshold_
+SimpleThreshold_yuamiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SimpleThreshold_yuamiao
+.PHONY : SimpleThreshold_yuamiao
 
 # fast build rule for target.
-SimpleThreshold_/fast:
-	$(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_.dir/build
-.PHONY : SimpleThreshold_/fast
+SimpleThreshold_yuamiao/fast:
+	$(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build
+.PHONY : SimpleThreshold_yuamiao/fast
+
+#=============================================================================
+# Target rules for targets named GaussianLPF_yuamiao
+
+# Build rule for target.
+GaussianLPF_yuamiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GaussianLPF_yuamiao
+.PHONY : GaussianLPF_yuamiao
+
+# fast build rule for target.
+GaussianLPF_yuamiao/fast:
+	$(MAKE) $(MAKESILENT) -f src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build.make src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build
+.PHONY : GaussianLPF_yuamiao/fast
 
 # Help Target
 help:
@@ -137,7 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SimpleThreshold_"
+	@echo "... GaussianLPF_yuamiao"
+	@echo "... SimpleThreshold_yuamiao"
 .PHONY : help
 
 
