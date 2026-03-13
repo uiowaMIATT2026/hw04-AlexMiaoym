@@ -8,3 +8,12 @@
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/CMakeFiles/edit_cache.dir
 /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/CMakeFiles/rebuild_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/DOG/CMakeFiles/DOG_yuamiao.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/DOG/CMakeFiles/edit_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/DOG/CMakeFiles/rebuild_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GRADIENTAD/CMakeFiles/edit_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GRADIENTAD/CMakeFiles/rebuild_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/CurvatureAD/CMakeFiles/edit_cache.dir
+/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/CurvatureAD/CMakeFiles/rebuild_cache.dir

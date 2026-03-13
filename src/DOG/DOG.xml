@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+    <category>MIATT.HW04.yuamiao</category>
+        <title>Difference of Gaussians</title>
+        <description>
+        Difference of Gaussians filter.
+    </description>
+    <version>1.0</version>
+    <documentation-url></documentation-url>
+    <license></license>
+    <contributor>Yuanmin Miao</contributor>
+
+    <parameters>
+        <label>DOG Parameters</label>
+        <description>
+        Parameters for Two Gaussian filters
+        </description>
+
+        <double>
+            <name>sigma1</name>
+            <longflag>sigma1</longflag>
+            <description>Sigma for First Gaussian filter </description>
+            <label>Sigma1</label>
+            <default>1.0</default>
+        </double>
+        <double>
+            <name>sigma2</name>
+            <longflag>sigma2</longflag>
+            <description>Sigma for Second Gaussian filter </description>
+            <label>Sigma2</label>
+            <default>2.0</default>
+        </double>
+    </parameters>
+
+    <parameters>
+        <label>IO</label>
+        <description>Input/output parameters</description>
+        <image>
+            <name>input</name>
+            <longflag>inputVolume</longflag>
+            <label>Input Volume</label>
+            <channel>input</channel>
+            <description>Input volume to be filtered</description>
+        </image>
+        <image>
+            <name>output</name>
+            <longflag>outputVolume</longflag>
+            <label>Output Volume</label>
+            <channel>output</channel>
+            <description>Output filtered</description>
+        </image>
+    </parameters>
+
+    <!-- Other parameters here -->
+</executable>

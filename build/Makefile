@@ -142,6 +142,45 @@ GaussianLPF_yuamiao/fast:
 	$(MAKE) $(MAKESILENT) -f src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build.make src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build
 .PHONY : GaussianLPF_yuamiao/fast
 
+#=============================================================================
+# Target rules for targets named DOG_yuamiao
+
+# Build rule for target.
+DOG_yuamiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DOG_yuamiao
+.PHONY : DOG_yuamiao
+
+# fast build rule for target.
+DOG_yuamiao/fast:
+	$(MAKE) $(MAKESILENT) -f src/DOG/CMakeFiles/DOG_yuamiao.dir/build.make src/DOG/CMakeFiles/DOG_yuamiao.dir/build
+.PHONY : DOG_yuamiao/fast
+
+#=============================================================================
+# Target rules for targets named GRADIENTAD_yuamiao
+
+# Build rule for target.
+GRADIENTAD_yuamiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GRADIENTAD_yuamiao
+.PHONY : GRADIENTAD_yuamiao
+
+# fast build rule for target.
+GRADIENTAD_yuamiao/fast:
+	$(MAKE) $(MAKESILENT) -f src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/build.make src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/build
+.PHONY : GRADIENTAD_yuamiao/fast
+
+#=============================================================================
+# Target rules for targets named CurvatureAD_yuamiao
+
+# Build rule for target.
+CurvatureAD_yuamiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CurvatureAD_yuamiao
+.PHONY : CurvatureAD_yuamiao
+
+# fast build rule for target.
+CurvatureAD_yuamiao/fast:
+	$(MAKE) $(MAKESILENT) -f src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/build.make src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/build
+.PHONY : CurvatureAD_yuamiao/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -150,6 +189,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CurvatureAD_yuamiao"
+	@echo "... DOG_yuamiao"
+	@echo "... GRADIENTAD_yuamiao"
 	@echo "... GaussianLPF_yuamiao"
 	@echo "... SimpleThreshold_yuamiao"
 .PHONY : help

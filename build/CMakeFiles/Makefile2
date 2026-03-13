@@ -84,22 +84,91 @@ clean: src/clean
 # Recursive "all" directory target.
 src/all: src/SimpleThreshold/all
 src/all: src/GaussianLPF/all
+src/all: src/DOG/all
+src/all: src/GRADIENTAD/all
+src/all: src/CurvatureAD/all
 .PHONY : src/all
 
 # Recursive "codegen" directory target.
 src/codegen: src/SimpleThreshold/codegen
 src/codegen: src/GaussianLPF/codegen
+src/codegen: src/DOG/codegen
+src/codegen: src/GRADIENTAD/codegen
+src/codegen: src/CurvatureAD/codegen
 .PHONY : src/codegen
 
 # Recursive "preinstall" directory target.
 src/preinstall: src/SimpleThreshold/preinstall
 src/preinstall: src/GaussianLPF/preinstall
+src/preinstall: src/DOG/preinstall
+src/preinstall: src/GRADIENTAD/preinstall
+src/preinstall: src/CurvatureAD/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/SimpleThreshold/clean
 src/clean: src/GaussianLPF/clean
+src/clean: src/DOG/clean
+src/clean: src/GRADIENTAD/clean
+src/clean: src/CurvatureAD/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/CurvatureAD
+
+# Recursive "all" directory target.
+src/CurvatureAD/all: src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/all
+.PHONY : src/CurvatureAD/all
+
+# Recursive "codegen" directory target.
+src/CurvatureAD/codegen: src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/codegen
+.PHONY : src/CurvatureAD/codegen
+
+# Recursive "preinstall" directory target.
+src/CurvatureAD/preinstall:
+.PHONY : src/CurvatureAD/preinstall
+
+# Recursive "clean" directory target.
+src/CurvatureAD/clean: src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/clean
+.PHONY : src/CurvatureAD/clean
+
+#=============================================================================
+# Directory level rules for directory src/DOG
+
+# Recursive "all" directory target.
+src/DOG/all: src/DOG/CMakeFiles/DOG_yuamiao.dir/all
+.PHONY : src/DOG/all
+
+# Recursive "codegen" directory target.
+src/DOG/codegen: src/DOG/CMakeFiles/DOG_yuamiao.dir/codegen
+.PHONY : src/DOG/codegen
+
+# Recursive "preinstall" directory target.
+src/DOG/preinstall:
+.PHONY : src/DOG/preinstall
+
+# Recursive "clean" directory target.
+src/DOG/clean: src/DOG/CMakeFiles/DOG_yuamiao.dir/clean
+.PHONY : src/DOG/clean
+
+#=============================================================================
+# Directory level rules for directory src/GRADIENTAD
+
+# Recursive "all" directory target.
+src/GRADIENTAD/all: src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/all
+.PHONY : src/GRADIENTAD/all
+
+# Recursive "codegen" directory target.
+src/GRADIENTAD/codegen: src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/codegen
+.PHONY : src/GRADIENTAD/codegen
+
+# Recursive "preinstall" directory target.
+src/GRADIENTAD/preinstall:
+.PHONY : src/GRADIENTAD/preinstall
+
+# Recursive "clean" directory target.
+src/GRADIENTAD/clean: src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/clean
+.PHONY : src/GRADIENTAD/clean
 
 #=============================================================================
 # Directory level rules for directory src/GaussianLPF
@@ -146,7 +215,7 @@ src/SimpleThreshold/clean: src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamia
 src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=4,5,6 "Built target SimpleThreshold_yuamiao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=13,14,15 "Built target SimpleThreshold_yuamiao"
 .PHONY : src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +232,7 @@ SimpleThreshold_yuamiao: src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.
 # codegen rule for target.
 src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/build.make src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=4,5,6 "Finished codegen for target SimpleThreshold_yuamiao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=13,14,15 "Finished codegen for target SimpleThreshold_yuamiao"
 .PHONY : src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/codegen
 
 # clean rule for target.
@@ -178,7 +247,7 @@ src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/clean:
 src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build.make src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build.make src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=1,2,3 "Built target GaussianLPF_yuamiao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=10,11,12 "Built target GaussianLPF_yuamiao"
 .PHONY : src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/all
 
 # Build rule for subdir invocation for target.
@@ -195,13 +264,109 @@ GaussianLPF_yuamiao: src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/rule
 # codegen rule for target.
 src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build.make src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target GaussianLPF_yuamiao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=10,11,12 "Finished codegen for target GaussianLPF_yuamiao"
 .PHONY : src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/codegen
 
 # clean rule for target.
 src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/build.make src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/clean
 .PHONY : src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/clean
+
+#=============================================================================
+# Target rules for target src/DOG/CMakeFiles/DOG_yuamiao.dir
+
+# All Build rule for target.
+src/DOG/CMakeFiles/DOG_yuamiao.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/DOG/CMakeFiles/DOG_yuamiao.dir/build.make src/DOG/CMakeFiles/DOG_yuamiao.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/DOG/CMakeFiles/DOG_yuamiao.dir/build.make src/DOG/CMakeFiles/DOG_yuamiao.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=4,5,6 "Built target DOG_yuamiao"
+.PHONY : src/DOG/CMakeFiles/DOG_yuamiao.dir/all
+
+# Build rule for subdir invocation for target.
+src/DOG/CMakeFiles/DOG_yuamiao.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DOG/CMakeFiles/DOG_yuamiao.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles 0
+.PHONY : src/DOG/CMakeFiles/DOG_yuamiao.dir/rule
+
+# Convenience name for target.
+DOG_yuamiao: src/DOG/CMakeFiles/DOG_yuamiao.dir/rule
+.PHONY : DOG_yuamiao
+
+# codegen rule for target.
+src/DOG/CMakeFiles/DOG_yuamiao.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/DOG/CMakeFiles/DOG_yuamiao.dir/build.make src/DOG/CMakeFiles/DOG_yuamiao.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=4,5,6 "Finished codegen for target DOG_yuamiao"
+.PHONY : src/DOG/CMakeFiles/DOG_yuamiao.dir/codegen
+
+# clean rule for target.
+src/DOG/CMakeFiles/DOG_yuamiao.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/DOG/CMakeFiles/DOG_yuamiao.dir/build.make src/DOG/CMakeFiles/DOG_yuamiao.dir/clean
+.PHONY : src/DOG/CMakeFiles/DOG_yuamiao.dir/clean
+
+#=============================================================================
+# Target rules for target src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir
+
+# All Build rule for target.
+src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/build.make src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/build.make src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=7,8,9 "Built target GRADIENTAD_yuamiao"
+.PHONY : src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/all
+
+# Build rule for subdir invocation for target.
+src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles 0
+.PHONY : src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/rule
+
+# Convenience name for target.
+GRADIENTAD_yuamiao: src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/rule
+.PHONY : GRADIENTAD_yuamiao
+
+# codegen rule for target.
+src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/build.make src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=7,8,9 "Finished codegen for target GRADIENTAD_yuamiao"
+.PHONY : src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/codegen
+
+# clean rule for target.
+src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/build.make src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/clean
+.PHONY : src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/clean
+
+#=============================================================================
+# Target rules for target src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir
+
+# All Build rule for target.
+src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/build.make src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/build.make src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=1,2,3 "Built target CurvatureAD_yuamiao"
+.PHONY : src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/all
+
+# Build rule for subdir invocation for target.
+src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles 0
+.PHONY : src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/rule
+
+# Convenience name for target.
+CurvatureAD_yuamiao: src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/rule
+.PHONY : CurvatureAD_yuamiao
+
+# codegen rule for target.
+src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/build.make src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target CurvatureAD_yuamiao"
+.PHONY : src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/codegen
+
+# clean rule for target.
+src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/build.make src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/clean
+.PHONY : src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

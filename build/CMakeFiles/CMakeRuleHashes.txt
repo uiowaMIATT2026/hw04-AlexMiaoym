@@ -1,3 +1,6 @@
 # Hashes of file build rules.
+48f5015c8fd4817f9d980a55bc9f38c1 src/CurvatureAD/CurvatureADCLP.h
+2cd3a0a6bdf6c2042ce67aa8770e63c6 src/DOG/DOGCLP.h
+d69b57d8233b9126925be80969b8e3c0 src/GRADIENTAD/GRADIENTADCLP.h
 adbafdfa068d4f00adde3c59849348a8 src/GaussianLPF/GaussianLPFCLP.h
 998e470d8ebc9b77092a0fe77c803696 src/SimpleThreshold/SimpleThresholdCLP.h

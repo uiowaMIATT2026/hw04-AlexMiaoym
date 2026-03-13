@@ -4,7 +4,10 @@
 		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/cmake_install.cmake",
 		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/cmake_install.cmake",
 		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/SimpleThreshold/cmake_install.cmake",
-		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/cmake_install.cmake"
+		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GaussianLPF/cmake_install.cmake",
+		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/DOG/cmake_install.cmake",
+		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/GRADIENTAD/cmake_install.cmake",
+		"/Users/alex/mym/ece5490/hw04-AlexMiaoym/build/src/CurvatureAD/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

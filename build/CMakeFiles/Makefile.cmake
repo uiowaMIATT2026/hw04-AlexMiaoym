@@ -176,6 +176,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
   "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/CMakeLists.txt"
+  "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/CurvatureAD/CMakeLists.txt"
+  "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/DOG/CMakeLists.txt"
+  "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/GRADIENTAD/CMakeLists.txt"
   "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/GaussianLPF/CMakeLists.txt"
   "/Users/alex/mym/ece5490/hw04-AlexMiaoym/src/SimpleThreshold/CMakeLists.txt"
   "/usr/local/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -220,10 +223,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/SimpleThreshold/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/GaussianLPF/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/DOG/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/GRADIENTAD/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CurvatureAD/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/SimpleThreshold/CMakeFiles/SimpleThreshold_yuamiao.dir/DependInfo.cmake"
   "src/GaussianLPF/CMakeFiles/GaussianLPF_yuamiao.dir/DependInfo.cmake"
+  "src/DOG/CMakeFiles/DOG_yuamiao.dir/DependInfo.cmake"
+  "src/GRADIENTAD/CMakeFiles/GRADIENTAD_yuamiao.dir/DependInfo.cmake"
+  "src/CurvatureAD/CMakeFiles/CurvatureAD_yuamiao.dir/DependInfo.cmake"
   )
